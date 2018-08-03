@@ -1,6 +1,9 @@
 #!/bin/bash
 #ASSIGNMENT 3: Advance AWS : Scalable architechure for image resize into 200 x 200
 #make image source bucket
+git clone https://github.com/thir13en5/AWS-Advance-Assignments.git
+cd AWS-Advance-Assignments/
+
 aws s3 mb s3://cdm-img-bucket --region us-east-1
 
 #storing my lambda function code in a file with appropriate name
